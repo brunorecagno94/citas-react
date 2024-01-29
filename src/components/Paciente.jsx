@@ -8,7 +8,7 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
   }
 
   return (
-    <div className="flex flex-col gap-6 h-fit px-5 py-10 rounded-xl bg-white shadow-md">
+    <div className="flex flex-col gap-6 h-fit px-5 py-10 mb-1 rounded-xl bg-white shadow-md">
       <div className="flex flex-col gap-3">
 
         <p className="font-bold text-gray-700 uppercase">Nombre:

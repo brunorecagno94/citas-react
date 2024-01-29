@@ -36,6 +36,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
     //Valida del formulario
     if ([nombre, propietario, email, fecha, sintomas].includes('')) {
       setError(true);
+      window.scrollTo({top: 50, behavior: 'smooth'});
       return;
     }
     setError(false);
